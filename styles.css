@@ -1,0 +1,46 @@
+#genreChoose{
+    display: none;
+
+}
+
+.hide {
+    display: none;
+}
+
+/* deklerer bredden på tabelens container 
+collapse = tabellens cellerne grænse bliver sammenflettet - ingen mellemrum
+*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+/* 1px kant rundt omkring hver tabel - klar synlig græsen mellem hver celle
+8px rundt omkring hver tabel, header-celle og data celle - mellemrum mellem elementerne
+*/
+ table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  th {
+    width: 25%;
+    font-size: 15px;
+  }
+  
+  /* Hovereffekt for tr*/
+  tr:hover {
+    background-color: beige
+  }
+  
+/* Baggrundsfarve for alle rækker */
+  tr {
+    background-color: rgba(185, 151, 107, 0.732); 
+  }
+  
+  a:link, a:visited {
+    color: black;
+  }
+ 
+
+  
